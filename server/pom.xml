@@ -5,14 +5,14 @@
 
   <parent>
     <groupId>com.example.maven-project</groupId>
-    <artifactId>jenkins-integration</artifactId>
+    <artifactId>jfrog-platform</artifactId>
     <version>jenkins-snapshot</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>server</artifactId>
+  <artifactId>jfrog-platform</artifactId>
   <packaging>jar</packaging>
-  <name>Server</name>
+  <name>jfrog-platform</name>
   <description>Logic.</description>
 
   <build>
