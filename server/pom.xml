@@ -5,8 +5,8 @@
 
   <parent>
     <groupId>com.example.maven-project</groupId>
-    <artifactId>jfrog-platform</artifactId>
-    <version>jenkins-snapshot</version>
+    <artifactId>jenkins-integration</artifactId>
+    <version>1.0-snapshot</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
