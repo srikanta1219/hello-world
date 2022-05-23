@@ -6,7 +6,7 @@
   <groupId>com.example.maven-project</groupId>
   <artifactId>jenkins-integration</artifactId>
   <packaging>pom</packaging>
-  <version>jenkins-snapshot</version>
+  <version>1.0-snapshot</version>
   <name>jenkins-inegration</name>
   <description>Sample Maven project with a working, deployable site.</description>
   <url>http://192.168.56.101:8081</url>
