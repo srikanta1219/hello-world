@@ -4,12 +4,12 @@
   <modelVersion>4.0.0</modelVersion> 
 
   <groupId>com.example.maven-project</groupId>
-  <artifactId>maven-project</artifactId>
+  <artifactId>jenkins-integration</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
-  <name>Maven Project</name>
+  <version>jenkins-snapshot</version>
+  <name>jenkins-inegration</name>
   <description>Sample Maven project with a working, deployable site.</description>
-  <url>http://www.example.com</url>
+  <url>http://192.168.56.101:8081</url>
 
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
