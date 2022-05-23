@@ -20,14 +20,21 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
+         
 
+  
   <distributionManagement>
-    <site>
-      <id>site-server</id>
-      <name>Test Project Site</name>
-      <url>file:///tmp/maven-project-site</url>
-    </site>
-  </distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>b2082fe1e78c-releases</name>
+        <url>http://192.168.56.101:8081/artifactory/jenkins-integration</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>b2082fe1e78c-snapshots</name>
+        <url>http://192.168.56.101:8081/artifactory/jenkins-integration</url>
+    </snapshotRepository>
+</distributionManagement>
 
   <build>
     <plugins>
