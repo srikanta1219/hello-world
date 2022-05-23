@@ -10,9 +10,9 @@
     <relativePath>../pom.xml</relativePath>
   </parent>
 
-  <artifactId>jfrog-platform</artifactId>
+  <artifactId>server</artifactId>
   <packaging>jar</packaging>
-  <name>jfrog-platform</name>
+  <name>server</name>
   <description>Logic.</description>
 
   <build>
